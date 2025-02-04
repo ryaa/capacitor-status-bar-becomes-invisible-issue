@@ -1,0 +1,1 @@
+# capacitor-status-bar-becomes-invisible-issue
