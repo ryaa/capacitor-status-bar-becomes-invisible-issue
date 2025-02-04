@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-toolbar class="button-toolbar">
+    <ion-buttons>
+      <ion-button color="primary" fill="solid" (click)="getPhoto()">Get Photo</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+  <ion-label>
+    To reproduce the problem please tap Get Photo button but don't select a photo or take a photo and just cancel it.
+    Please note that the status bar is not visible any more.
+  </ion-label>
+
+</ion-content>
